@@ -225,8 +225,6 @@ class yt_downloader implements cnfg
         else {
             $yt_url_map = self::get_yt_url_map();
 
-            echo($yt_url_map);
-
             if($yt_url_map === FALSE) {
                 $vids = self::get_downloads();
                 self::set_yt_url_map($vids);
