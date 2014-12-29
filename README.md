@@ -1,5 +1,4 @@
 # PHP class to download videos from YouTube and/or convert them to mp3 audio files.
-  This is modified fork of eyecatchup/php-yt_downloader/
   This script is tested in Ubuntu 14.04 replacing ffmpeg with avconv.
 
 ## Introduction
